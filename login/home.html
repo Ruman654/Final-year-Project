@@ -1,0 +1,680 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TechPulse | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">TechPulse</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./category.html" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./Resources.html" class="list-link">Resources</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./news.html" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./Responsive Contact Us Form/contact.html" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./index.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./index.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="./index.php" class="list-link screen-sm-hidden">sign in</a>
+                <a href="./registration.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">Apple announces a new partnership...</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>June 10th 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Is AI the future?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./datascience.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/Data science.jpg" alt="" class="article-image">
+                    <span class="article-category">Data Science</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>June 10th 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">If we have data, let's look at data.</h3>
+
+                    </div>
+                </a>
+
+                <a href="./blockchain.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/blockchain.jpg" alt="" class="article-image">
+                    <span class="article-category">Blockchain</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>June 10th 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The financial challenge of our time</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending Technology</h3>
+
+                <a href="https://www.kaggle.com/" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">10</span>
+                        <img src="./assets/images/trending/machine learning.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>10 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Machine Learning</h3>
+
+                    </div>
+                </a>
+
+                <a href="https://tryhackme.com/" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">20</span>
+                        <img src="./assets/images/trending/cyber.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>10 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Cyber Security</h3>
+
+                    </div>
+                </a>
+
+                <a href="https://learn.microsoft.com/en-us/training/" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">30</span>
+                        <img src="./assets/images/trending/web.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>10 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Web Development</h3>
+
+                    </div>
+                </a>
+
+                <a href="https://www.coursera.org/learn/introduction-to-internet-of-things?" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">40</span>
+                        <img src="./assets/images/trending/iot.avif" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>10 june  2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Internet of Things</h3>
+
+                    </div>
+                </a>
+
+                <a href="https://aws.amazon.com/education/awseducate/" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/aws.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>10 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">AWS Course</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="https://business.linkedin.com/en-in/talent-solutions/resources/" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/it analyst.png" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>10 June 2024</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">IT Analyst</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="https://www.coursera.org/articles/what-is-an-it-technician" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/it techiniac.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>10 June 2024</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">IT Technician</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="https://www.indeed.com/career-advice/careers/what-does-an-it-director-do" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/it-director.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>10 June 2024</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">IT Director</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="https://makeit.com/creativity-information-technology/" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>10 June 2024</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Creativity</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="https://en.wikipedia.org/wiki/Computer_programming" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>10 June 2024</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Computer Programming</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="https://www.aha.io/roadmapping/guide/information-technology/what-is-the-role-of-an-it-manager" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/It manager.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>10 June 2024</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">IT Manager</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/network.png" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>8 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Network administrators</h3>
+                        <p class="article-description">Network administrators oversee computer networks and solve problems that may arise with these systems. They install and configure computer networks and data communications systems. They may also upgrade hardware, build new systems and monitor network performance.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/UX.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>8 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">User experience (UX) designer</h3>
+                        <p class="article-description"> A user experience (UX) designer oversees all facets of product development regarding its purchasing, branding, usability and functionality. They collect and review user feedback to determine what a product needs to be efficient, functional and successful. They apply this feedback to the design, organisation and usability of products..</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>7 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Systems Analyst </h3>
+                        <p class="article-description">A systems analyst reviews design components and uses their knowledge of information technology to solve business problems. They identify infrastructure changes that could streamline business and IT operations. They can also assist technicians in training staff to implement the changes they propose.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>6 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title"> Software application packagers</h3>
+                        <p class="article-description">Software application packagers design software installation packages for companies to use on their desktop and laptop computers. They develop packages of files that have the necessary applications to help employees do their jobs. These professionals install these packages and test the installations to make sure they perform correctly</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>7 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Senior software engineers</h3>
+                        <p class="article-description">Senior software engineers apply their knowledge of mathematics and computer science to create and improve new software. They may work on enterprise applications, operating systems and network control systems, which are all examples of software that businesses use to scale their IT infrastructure. These professionals often lead a team of developers to build new software applications.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/cloud.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>5 June 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Cloud engineers</h3>
+                        <p class="article-description">Cloud engineers research and implement ways to transfer a company's existing infrastructure to cloud-based systems. Cloud systems are remote servers that store and manage data. These professionals also maintain that data and information once they move it to the new system.
+                        </p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#innovation</span>
+                    <img src="./assets/images/tags/innovation.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#programmers</span>
+                    <img src="./assets/images/tags/desing.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">	#security</span>
+                    <img src="./assets/images/tags/engg.webp" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#business</span>
+                    <img src="./assets/images/tags/gadget.webp" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#indiatech</span>
+                    <img src="./assets/images/tags/industry.png" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to TechPulse</h6>
+                <p class="newsletter-description">TechPulse aims to be a go-to source for IT professionals, developers, and
+                    tech enthusiasts. The website allows users to create, share, and engage
+                    with blog content on various IT topics. It includes robust user management, content categorization, and interactive features to enhance user experience
+                    and engagement.</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">TechPulse</h2>
+                </a>
+                <p class="company-description">TechPulse is a comprehensive IT-related blogging website designed to
+                    provide a platform for technology enthusiasts to share knowledge, news, and insights about the latest trends and advancements in the field of
+                    Information Technology. This document outlines the key features, technologies, and languages used in the development</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2024 TechPulse. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Hardware</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Software</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Networking</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Databases</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">IT Tools</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Etc</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./Responsive Contact Us Form/contact.html" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

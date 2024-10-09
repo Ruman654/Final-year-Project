@@ -1,0 +1,100 @@
+/* Global Styles */
+
+body {
+    font-family: sans-serif;
+    color: #222;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0 0 0.35em;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    margin: 0 0 1.15em;
+  }
+  
+  /* Container Styles */
+  
+  .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    border-bottom: 2px solid rebeccapurple;
+  }
+  
+  header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    border-top: 2px solid rebeccapurple;
+    padding: 24px;
+    text-align: center;
+  }
+  
+  footer.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Category Styles */
+  
+  .category {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .category:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+  }
+  
+  .category a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .category a:hover {
+    color: #23527c;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+   .container {
+      max-width: 600px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+   .container {
+      max-width: 400px;
+    }
+  }
